@@ -1,0 +1,642 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+ 
+.page {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+/* =============== Navbar =============== */
+ 
+
+.navbar {
+    background: #080808;
+    font-size: 0;
+    text-align: left;
+    height: 70px;
+} 
+
+.img-small {
+    display: inline-block;
+    width: 79px;
+    height: 27px;
+    background: url(../img/axit-small.png) no-repeat;
+    margin-left: 150px;
+    margin-top: 21px;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    right: 149px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 48px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* =============== Header =============== */
+
+
+header {
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/town.png) no-repeat;
+    text-align: left;
+    color: #ffffff;
+    font-size: 0;
+}
+ 
+.container-text {
+    width: 50%;
+    display: inline-block;
+    padding: 110px 0 140px 150px;
+}
+
+.img {
+    width: 175px;
+    height: 60px;
+    background: url(../img/axit.png) no-repeat;
+    margin-bottom: 33px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 36px;
+}
+ 
+.container-text hr {
+    background: #ffffff;
+    margin: 30px  0;
+    width: 64px;
+    height: 2px;
+    border: none;
+}
+ 
+.container-text p {
+    font-size: 16px;
+}
+ 
+.container-text button {
+    display: block;
+    margin: 44px 0;
+    width: 135px;
+    height: 42px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container-form {
+    display: inline-block;
+    width: 50%;
+    
+} 
+
+.up{
+    width: 374px;
+    height: 368px;
+    position: absolute;
+    top: 210px;
+    right: 143px;
+}
+
+.form-name {
+    width: 360px;
+    height: 54px;
+    background: #F5F5F5;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+.form-name h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 20px;  
+}
+
+.form-name span {
+    color: #FF8B38;
+}
+
+.form-input {
+    width: 360px;
+    height: 85px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding-top: 20px;
+}
+
+.form-input input {
+    width: 285px;
+    height: 31px;
+    margin-left: 38px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #86878B;
+}
+
+.container-form button {
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    height: 54px;
+    border: 2px solid #FF8B38;
+    border-radius: 2px;
+    background: #FF8B38;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+ 
+
+/* =============== Section Brand =============== */
+ 
+ 
+.brand {
+    background: #FFFFFF;
+    position: relative;
+    text-align: left;
+}
+
+.brand-text {
+    padding: 23px 850px 22px 150px;
+}
+
+.brand-text h3 {
+    font-size: 20px;
+    color: #333333;
+} 
+ 
+.brand-text p {
+    padding-top: 12px ;
+    font-size: 14px;
+    color: #86878B; 
+
+}
+ 
+.brand-logo {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    padding: 0;
+    width: 634px;
+    height: 46px;
+}
+ 
+.brand-logo li {
+    list-style-type: none;
+    display: inline-block;
+}
+ 
+.brand-logo li a {
+    display: inline-block;
+    position: relative;
+    background: url(../img/white-logo.png) no-repeat;
+    background-position: left top;
+    background-origin: content-box;
+    margin: 0 18px;
+    width: 50px;
+    height: 45px;
+}
+ 
+.brand-logo li .brand-twitter {
+    background-position: -87px 0;
+}
+ 
+.brand-logo li .brand-googleplus {
+    background-position: -184px 0;
+}
+ 
+.brand-logo li .brand-pinterest {
+    background-position: -275px 0;
+}
+ 
+.brand-logo li .brand-instagram {
+    background-position: -380px 0;
+}
+ 
+.brand-logo li .brand-stumbleupon {
+    background-position: -484px 0;
+}
+ 
+.brand-logo li .brand-rss {
+    background-position: -590px 0;
+}
+
+
+/* =============== Section Feauters =============== */
+
+
+.feauters {
+    background: #F5F5F5;
+    padding: 148px 149px 115px 140px;
+}
+
+.square {
+    display: inline-block;
+}
+
+.square ul {
+    padding: 0;
+}
+.square li {
+    width: 112px;
+    height: 112px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 600;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.square li:hover {
+    background: #FF8B38;
+    cursor: pointer;
+}
+
+.text {
+    display: inline-block;
+    text-align: left;
+    width: 650px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+.text h3 {
+    padding-bottom: 30px;
+}
+.text p {
+    padding-bottom: 15px;
+}
+.text button {
+    width: 121px;
+    height: 46px;
+    margin-top: 30px;
+    border: 2px solid #FF8B38;
+    border-radius: 2px;
+    background: #FF8B38;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+.img-city {
+    display: inline-block;
+    width: 320px;
+    height: 253px;
+    background-image: url(../img/houses.png);
+}
+ 
+
+/* =============== Main =============== */
+ 
+ 
+.process {
+    padding-top: 107px;
+}
+ 
+h2 {
+   font-size: 36px;
+   font-family: 'Raleway', sans-serif;
+}
+ 
+hr {
+   background: #FF8B38;
+   width: 64px;
+   height: 2px;
+   border: none;
+   margin: 30px auto;
+}
+ 
+h4 {
+   font-size: 14px;
+   color: #86878B;
+   font-weight: 400;
+}
+  
+.main{ 
+    padding: 80px 0 107px;
+    font-size: 0;
+}
+ 
+.box {
+    width: 350px;
+    display: inline-block;
+    margin: 0 16px;
+}
+ 
+.pic {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%; 
+}
+
+.pic--lamp {
+    background: url(../img/lamp.jpg) no-repeat center center;
+}
+ 
+.pic--keyboard {
+    background: url(../img/keyboard.jpg) no-repeat center center;
+}
+ 
+.pic--volt {
+    background: url(../img/volt.jpg) no-repeat center center;
+}
+ 
+.box h3 {
+    font-size: 20px;
+    color: #333333;
+    margin: 30px 0;
+} 
+ 
+.box p {
+    font-size: 14px;
+    color: #86878B; 
+}
+ 
+
+/* =============== Section Pricing =============== */
+
+
+.pricing {
+    background: #F5F5F5;
+    padding-top: 109px;
+}
+
+.pricing-box {
+    width: 343px;
+    display: inline-block;
+    margin: 80px 16px;
+}
+
+.pricing-box ul {
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.pricing-box li {
+    width: 343px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #86878B;
+    list-style-type: none;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.pricing-box .name {
+    height: 59px;
+    background: #333333;
+    padding-top: 15px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pricing-box .price {
+    height: 100px;
+    background: #333333;
+    font-size: 35px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+    font-weight: 700;
+}
+
+.pricing-box .price span {
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing-box .time {
+    height: 51px;
+    background: #333333;
+    padding-top: 15px;
+    border-bottom: 3px solid #FF8B38;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.pricing-box .top {
+    background: #FF8B38;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+
+/* =============== Section Comment =============== */
+
+
+.comment {
+    padding-top: 109px;
+}
+
+.comment p {
+    padding-top: 10px;
+ }
+ 
+.comment-container { 
+    padding: 80px 0 107px;
+}
+ 
+.comment-box {
+    text-align: left;
+    display: inline-block;
+    width: 273px;
+    background: url(../img/comment.png) no-repeat;
+    margin: 0 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.foto {
+    width: 225px;
+    height: 70px;
+    margin-top: 50px;
+    background: url(../img/client.png) no-repeat;
+    padding-left: 90px;
+}
+
+ 
+/* =============== Section Custom =============== */
+ 
+ 
+.custom-section {
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/city.png) no-repeat;
+    padding: 76px 0 25px;
+}
+ 
+.custom-section h2 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+ 
+.custom-section hr {
+    background: #ffffff;
+    margin-top: 26px;
+}
+ 
+.custom-section p {
+    font-size: 16px;
+    color: #ffffff;
+}
+ 
+.custom-section button {
+    display: block;
+    margin: 30px auto;
+    width: 135px;
+    height: 42px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* =============== Section Comment =============== */
+
+
+.contact {
+    padding: 107px 0 1px 0;
+}
+
+.contact-container {
+    margin: 20px;
+}
+
+.contact-form {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.contact-form input{
+    width: 537px;
+    height: 31px;
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #86878B;
+}
+.contact-text {
+    display: inline-block;
+}
+
+.contact-text input {
+    vertical-align: 124px;
+    width: 537px;
+    height: 150px;
+    padding-bottom: 130px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #86878B;
+}
+.contact-container button {
+    display: block;
+    width: 148px;
+    height: 46px;
+    margin: 80px auto;
+    border: 2px solid #FF8B38;
+    border-radius: 2px;
+    background: #FF8B38;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+ 
+ 
+/* =============== Footer =============== */
+ 
+ 
+footer {
+    background: #080808;
+    padding-top: 39px;
+}
+ 
+.icon-logo{
+    margin: 0 auto;
+    padding: 0;
+    width: 320px;
+    height: 30px;
+}
+ 
+.icon-logo li {
+    list-style-type: none;
+    display: inline-block;
+}
+ 
+.icon-logo li a {
+    display: inline-block;
+    position: relative;
+    background: url(../img/logo.png) no-repeat;
+    background-position: left top;
+    background-origin: content-box;
+    margin: 0 5px;
+    width: 30px;
+    height: 23px;
+}
+ 
+.icon-logo li .link-twitter {
+    background-position: -40px 0;
+}
+ 
+.icon-logo li .link-googleplus {
+    background-position: -90px 0;
+}
+ 
+.icon-logo li .link-pinterest {
+    background-position: -140px 0;
+}
+ 
+.icon-logo li .link-instagram {
+    background-position: -190px 0;
+}
+ 
+.icon-logo li .link-stumbleupon {
+    background-position: -240px 0;
+}
+ 
+.icon-logo li .link-rss {
+    background-position: -290px 0;
+}
+ 
+footer p {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px 0;
+}

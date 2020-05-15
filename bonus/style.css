@@ -1,0 +1,92 @@
+.header {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.circle-up-left{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    background: #ff0000;
+}
+
+.circle-up-left:hover {
+    background: #66ff33;
+    z-index: 1;
+}
+
+.circle-up-right{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    background: #ff0000;
+}
+
+.circle-up-right:hover {
+    background: #cccc00;
+    z-index: 1;
+}
+
+.circle-down-left{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 35%;
+    left: 30%;
+    background: #ff0000;
+}
+
+.circle-down-left:hover {
+    background: #666633;
+    z-index: 1;
+}
+
+.circle-down-right{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    background: #ff0000;
+}
+
+.circle-down-right:hover{
+    background: #996600;
+    z-index: 1;
+}
+
+.square-big {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 35%;
+    background: #3366ff;
+}
+
+.square-big:hover {
+    background: #cc0099;
+    z-index: 1;
+}
+
+.square-small {
+    width: 10%;
+    height: 10%;
+    border-radius: 15%;
+    position: relative;
+    top: -15%;
+    left: 40%;
+    background: #ffcc00;
+}
+
+.square-small:hover {
+    background: #ff6600;
+}

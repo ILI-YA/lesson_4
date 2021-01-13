@@ -55,6 +55,7 @@ header {
     background:
         linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url(../img/town.png) no-repeat;
+    background-size: cover;
     text-align: left;
     color: #ffffff;
     font-size: 0;
